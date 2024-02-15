@@ -1,0 +1,241 @@
+select{
+    background: rgba(255, 255, 255, 0);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff00; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      cursor: pointer;
+    background: rgb(36, 36, 36); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0); 
+  }
+body{
+    scrollbar-width: auto;
+    scrollbar-color: rgb(36, 36, 36) rgba(0, 0, 0, 0);
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    font-size: 21px;
+    background: #1a1a1a;
+   
+}
+.all{
+    margin-top: 10px ; 
+    height: calc(100vh - 10px);
+    width: 100vw;
+    
+}
+.sidenav_logo{
+
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+.sidenav {
+    float: left;
+    height: calc(100vh - 10px);
+    
+    width:300px;
+ 
+  
+    background: #1a1a1a;
+    overflow-x: hidden;
+  
+
+    }
+    
+    
+    
+    .sidenav .sidenav_content {
+    padding:  10px 16px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+   
+    margin: 10px;
+    background: rgba(255,255,255, 0.15);
+    color: white;
+    display: block;
+    font-weight: lighter;
+    }
+    
+    
+    
+    .sidenav .sidenav_content:hover {
+    
+    color: white;
+    
+    font-weight: bold;
+    
+    }
+    
+    .sidenav_bottom{
+        bottom:0;
+        width: 300px;
+        position: absolute;
+
+    }
+    .sidenav .sidenav_name:hover{
+        font-weight: normal;
+        
+        
+
+    }
+    
+ 
+    .mainbox0{
+    float: left;
+    border-radius: 10px 0px 0px 0px;
+    height: calc(100vh - 10px);
+
+    width: calc(100vw - 300px);
+ 
+   
+    background: rgb(230, 230, 230);
+    
+    
+    
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+       
+      }
+      
+      
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 5px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+
+      .ajax_vysledek{
+        position: absolute;
+        bottom:5;
+        right:5;
+        padding: 25px;
+        }
+        .ajax_vysledek .good{
+            background: #80ffa4;
+            padding: 25px;
+            font-weight: bold;
+        }
+        .ajax_vysledek .bad{
+            background: #ff5757;
+            padding: 25px;
+            font-weight: bold;
+        
+        }
+        .ajax_vysledek .loading{
+            font-size: 20px;
+            padding: 25px;
+            background: #c9c9c9;
+        
+        }
+     
+        .ajax_vysledek{
+            position: absolute;
+            bottom:5;
+            right:5;
+            padding: 25px;
+            }
+            .ajax_vysledek .good{
+                
+                background: #80ffa4;
+                padding: 25px;
+                font-weight: bold;
+                float: bottom;
+                margin-top:10px;
+                color: black;
+                border-radius: 10px;
+            }
+            .ajax_vysledek .bad{
+                background: #ff5757;
+                padding: 25px;
+                font-weight: bold;
+                float: bottom;
+                margin-top:10px;
+                border-radius: 10px;
+            }
+          
+          
+            .ajax_vysledek .loading{
+                font-size: 20px;
+                padding: 25px;
+                background: #c9c9c9;
+            
+            }
+
+            .navigace{
+                color:#1a1a1a;
+                padding :5px;
+                font-size: 18px;
+            }
+            .navigace_href{
+                text-decoration: none;
+                cursor: pointer;
+                color:#1a1a1a;
+            }
+            .sidenav .active{
+
+                font-weight: bold;
+                padding-left: 35px;
+            }
+            .main{
+                width: 100vw;
+                height: 100vh;
+                background:rgb(209, 209, 209);
+                position : absolute;
+                top: 0;
+                left: 0;
+             
+            }
+   
+        .tab_nadpis{
+
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 15px 15px 0px 0px;
+            background: #1a1a1a;
+            color: #fff;
+            
+            
+            
+            }
+            .updatemodal{
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-40%, -50%);
+                background:white;
+                padding: 25px 50px 25px 50px;
+                font-size:25px;
+                font-weight: bold;
+                z-index: 99999;
+                filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+              
+              }
+
+       

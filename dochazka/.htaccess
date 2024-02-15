@@ -1,0 +1,10 @@
+ErrorDocument 400 http://ttles.eu/dochazka/errors/400.php
+ErrorDocument 401 http://ttles.eu/dochazka/errors/401.php
+ErrorDocument 403 http://ttles.eu/dochazka/errors/403.php
+ErrorDocument 404 http://ttles.eu/dochazka/errors/404.php
+ErrorDocument 408 http://ttles.eu/dochazka/errors/408.php
+ErrorDocument 429 http://ttles.eu/dochazka/errors/429.php
+ErrorDocument 500 http://ttles.eu/dochazka/errors/500.php
+ErrorDocument 502 http://ttles.eu/dochazka/errors/502.php
+ErrorDocument 503 http://ttles.eu/dochazka/errors/503.php
+ErrorDocument 504 http://ttles.eu/dochazka/errors/504.php

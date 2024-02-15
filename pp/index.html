@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="nicknameinsert" id="nicknameinsert">
+            <input placeholder="jméno" autofocus class="nickinsert" id="nickanmeinsert" type="text">
+            <div  onClick="submitNickname()" class="nickconfirm"  >
+                Vstoupit
+                <img src="luklove.png" alt="">    
+            </div>
+
+        </div>
+        <div class="loadingbox" style="display:none" id="loadinggif">
+            <img src="disicon2.png" class="rotating" alt="">
+            <div class="loadingtext"></div>
+        </div>
+        <div class="time" id="time"></div>
+        <div id="griddiv"></div>
+        <div class="hlasdiv" id="hlasdiv"></div>
+        
+        <div id="errormessge" class="errormessge" style="display: none;">
+Error
+        </div>
+    </body>
+</html>

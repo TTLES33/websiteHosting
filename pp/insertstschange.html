@@ -1,0 +1,32 @@
+<html><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="buttons">
+    <input  value="hlas1" type="button" onclick="contactserver('hlas_1')">
+    <input  value="hlas2" type="button" onclick="contactserver('hlas_2')">
+    <input  value="hlas3" type="button" onclick="contactserver('hlas_3')">
+    <input  value="hlas4" type="button" onclick="contactserver('hlas_4')">
+    <input  value="hlas5" type="button" onclick="contactserver('hlas_5')">
+    <input  value="hlas6" type="button" onclick="contactserver('hlas_6')">
+    <input  value="hlas7" type="button" onclick="contactserver('hlas_7')">
+    <input  value="hlas8" type="button" onclick="contactserver('hlas_8')">
+    <input  value="hlas9" type="button" onclick="contactserver('hlas_9')">
+    <input  value="end_Tiles_hlasovani" type="button" onclick="contactserver('endtiles')">
+    <br>
+</div>
+<br><br>
+<div class="info">
+    State: <div id="state"></div>
+    n.o.feq.: <div id="req"></div>
+</div>
+<input class="req" value="RequestUsers" type="button" onclick="requsers()">
+<br>
+<div class="users" id="users">
+
+</div>
+</body>
+</html>

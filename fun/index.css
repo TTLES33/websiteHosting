@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik:wght@500&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.maincontainer{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background: #0d1117;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.temp_container{
+   
+    width: 50vw;
+    margin: 0 auto;
+}
+.temp{
+    display: inline-block;
+    margin: 5%;
+    width: 30%;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 40px;
+    font-size: 30px;
+}
+.celsia{
+    display: inline-block;
+    font-size: 30px;
+}
+.celsia sup{
+    font-size: 20px;
+}
+
+.temp_container_mobile{
+    width: 85vw;
+}
+.temp_mobile{
+    font-family: 'Rubik', sans-serif;
+    display: inline-block;
+    margin: 0%;
+    font-size: 190px;
+    width: 100%;
+    margin-top: 100px;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.celsia_mobile{
+    display: inline-block;
+    font-size: 190px;
+}
+.celsia_mobile sup{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+}
+.reload_bttn{
+
+}
+.reload_bttn_mobile{
+    display: inline-block;
+    margin: 0%;
+    font-size: 170px;
+    width: 100%;
+    margin-top: 100px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 40px;
+    bottom: 7.5vw;
+    position: fixed;
+    left: 7.5vw;
+    width: 85vw;
+    background: white;
+    color: #0d1117;
+    letter-spacing:5pt;
+}

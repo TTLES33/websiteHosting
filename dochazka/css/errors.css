@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+.errorbox{
+    position:relative;
+}
+.error{
+    position: absolute;
+  
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+}
+.errorcode{
+    font-size: 300px;
+
+    color: #527fff;
+    z-index: 1;
+    font-family: bold;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    line-height: 1;
+    text-shadow: 10px 5px 25px rgba(56, 56, 56, 0.2);
+}
+.errordes{
+    font-size: 40px;
+    margin-top: -40px;
+    color: rgb(134, 134, 134);
+}

@@ -1,0 +1,102 @@
+.login_form{
+             
+    z-index: 10;
+    background: white;
+    min-width: 20px;
+    width: 300px;
+    vertical-align: middle;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding-bottom: 1px;
+    }
+
+    .login_form input{
+        border: none;
+        margin-bottom:25px;
+        border-radius: 8px;
+        width: 95%;
+        transition: 0.3s;
+        padding: 8px;
+        font-size: 15px;
+        border: 1px solid rgb(208,211,214);
+        
+    }
+    .login_form input:hover{
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .login_form select{
+        margin-bottom:25px;
+        border: none;
+        border-radius: 8px;
+        padding: 8px;
+        width: 95%;
+        font-size: 15px;
+        border: 1px solid rgb(208,211,214);
+        transition: 0.3s;
+        
+        cursor: pointer;
+    }
+    .login_form select:hover{
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+.status_success{
+    margin-top: 25px;
+    background: rgb(80, 255, 80);
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+.status_error{
+    margin-top: 25px;
+    background: rgb(255, 80, 80);
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+.status_idling{
+    background: rgb(165, 165, 165);
+    display: inline-block;
+    padding: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+.loadingimg{
+    height:25px;
+}
+.login_button{
+ 
+    margin-bottom: 0px;
+    transition: 0.3s;                
+    cursor: pointer;
+    display: inline-block;
+    background-color: #1a1a1a;
+    border: none;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 8px;
+    width: 95%;
+    color: white;
+  
+}
+.login_button:hover{
+    border-radius: 15px;
+    cursor: pointer;
+}
+.userselect{
+    color:#c7c7c7;
+}

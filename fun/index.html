@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <script>
+            function devicedetector(){
+            if ( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/iPhone/i)) {
+                console.log("mobile device detected")
+                document.getElementById("temp_container").classList.add("temp_container_mobile");
+                document.getElementById("reload_bttn").classList.add("reload_bttn_mobile");
+                for (var i=0; i<document.getElementsByClassName("temp").length; i++) {
+                    document.getElementsByClassName("temp")[i].classList.add("temp_mobile");
+                    document.getElementsByClassName("celsia")[i].classList.add("celsia_mobile");
+                }
+              }
+            }
+            function reload(){
+                location.reload(); 
+            }
+        </script>
+    </head>
+    <body onload="devicedetector()">
+        <div class="maincontainer">
+           
+            <div id="temp_container" class="temp_container">
+           
+                <div class="temp">--<div class="celsia"><sup>°C</sup></div> </div>
+                <div class="temp">--<div class="celsia"><sup>°C</sup></div></div>
+                <div id="reload_bttn" class="reload_bttn" onclick="reload()">OBNOVIT</div>
+            </div>
+        </div>
+    </body>
+</html>

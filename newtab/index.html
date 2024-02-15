@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="background.css">
+
+
+
+
+</head>
+<body>
+
+
+
+
+<div class="all">
+
+<div  class="bar" ></div>
+<div id="body" class="content" >
+  <div class="time-model">
+    <div class="time">
+        <div id="hod" class="hod">00</div>
+     
+        <div id="min" class="min">00</div>
+        
+        <div id="sec" class="sec">00</div>
+    </div>
+    <br>
+    <div id="date" class="date">00.00.0000</div>
+</div>
+
+<div class="searching">
+    <form class="searchform" onsubmit=" search(); return false;" >
+      <table>
+        <tr>
+            <td>
+            <select  class="engineselect" id="searchengine">
+                <option value="brave" selected>Brave</option>
+                <option value="google" >Google</option>
+                <option value="duckduckgo" >DuckDuckGo</option>
+                <option value="seznam" >Seznam</option>
+                
+            </select>
+        </td>
+        <td>
+          <input autofocus id="searchbar"  type="text">
+        </td>
+        <td>  
+            <svg class="searchsvg" onClick=" search(); "  ><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+        </td>
+        </tr>
+        </table>
+  
+    </form>
+</div>
+<div class="downbar" >
+    <div id="weather" class="container">openweathermap</div>
+    <div id="crypto" onClick="crypto()" class="container">ETH - 2351$ (2,3%) ᐯ</div>
+   <!--  <div id="bazar"  class="container"> <div class="bazardiv" onclick="bazaropen()">bazary</div> </div> -->
+    <div id="ticktick" class="container">TickTickᐯ</div>
+   
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+
+<script src="test.js"></script>
+
+
+
+
+</html>

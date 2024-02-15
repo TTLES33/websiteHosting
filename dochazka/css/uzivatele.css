@@ -1,0 +1,225 @@
+
+.tabulka{
+
+    max-height: 90vh;
+    max-width: 95%;
+    border:none;
+    width: auto;
+    overflow-y: scroll;
+    padding: none;
+    display: inline-block;
+}
+
+
+
+.dochazka_table{
+    border-spacing:0px;
+    background: white;
+    overflow-y: scroll;
+   
+}
+.dochazka_td{
+    border:none;
+    margin:0;
+    padding: 5px 15px 5px 15px;
+    border-spacing:0px;
+    text-align: center;
+}
+.dochazka_tr{
+    border: none;
+    background: #1a1a1a;
+    margin: 0;
+    border-radius: 10px;
+    border-spacing: 0px;
+
+  
+}
+.dochazka_tr th{
+    border: none;
+    margin: 0;
+    padding: 10px;
+    color :white;
+    border-spacing: 0px;
+}
+
+
+.tabulka tfoot,
+.tabulka tfoot th,
+.tabulka tfoot td {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+
+  font-weight: bold;
+
+
+ 
+  z-index:4;
+  text-align: center;
+}
+
+.tabulka tfoot{
+    margin-top: 10px;
+}
+
+.form_input{
+    display: inline-block;
+    margin: 15px;
+    border-radius: 15px;
+    background: white;
+    padding:10px;
+}
+.form_input input{
+    border: none;
+    height: 35px;
+    border-bottom: 1px solid #1a1a1a;
+    transition: 0.3s;
+   
+}
+.form_input select{
+    border: none;
+    height: 35px;
+    border-bottom: 1px solid #1a1a1a;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.form_input input:hover{
+
+    border-bottom: 2px solid #1a1a1a;
+}
+.form_input select:hover{
+
+    border-bottom: 2px solid #1a1a1a;
+}
+.form_input  .submit{
+    border: none;
+    cursor: pointer;
+    height: 35px;
+  
+    
+   
+}
+.form_input  .submit:hover{
+
+border: none;
+}
+
+.tisk{
+    position: absolute;
+    top:10px;
+    right:10px;
+    padding: 10px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+
+
+.uzavreno{
+    padding: 5px;
+    margin: 0;
+background: #ff6459;
+}
+.otevreno{
+    margin: 0;
+    padding: 5px;
+    background: #51fa48;
+    font-weight: bold;
+}
+.form_success{
+  background: #80ffa4;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 25px;
+    font-size: 21px;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+.form_error{
+
+  background: #ff5757;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 25px;
+    font-size: 21px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dochazka_table input{
+    background: rgb(241, 241, 241);
+  border: none;
+  border-bottom: 1px solid #1a1a1a;
+ transition: 0.1s;
+  margin-bottom: 5px;
+}
+.dochazka_table input:hover{
+
+  border-bottom: 2px solid #1a1a1a;
+}
+.dochazka_table input:focus{
+  background: #dee6ff;
+  border: none;
+  border-bottom: 1px solid #1a1a1a;
+}
+.dochazka_table select{
+    background: rgb(241, 241, 241);
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid #1a1a1a;
+ transition: 0.1s;
+  margin-bottom: 5px;
+}
+.dochazka_table select:hover{
+
+  border-bottom: 2px solid #1a1a1a;
+}
+.dochazka_table input[type=submit]{
+    background: rgb(241, 241, 241);
+  border: none;
+ 
+  cursor: pointer;
+ transition: 0.1s;
+ padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+}
+.dochazka_table input[type=submit]:hover{
+
+  font-weight: bold;
+}
+
+.table_add{
+ 
+ 
+    border-top: 2px solid #1a1a1a;
+   
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    text-align: left;
+    
+
+}
+.content{
+    color: rgb(7, 192, 7);
+    font-size: 12px;
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+    width: 100%;
+    padding:  8px 0px 0px 8px;
+    
+}
+.input_name{
+    width: 400px;
+}
+
+
+.input_small{
+    width: 120px;
+}
+.bottom_th input{
+    width: 120px;}

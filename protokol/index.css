@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik:wght@500&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #141414;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    justify-content: center;
+    display: grid;
+    flex-wrap: wrap;
+    font-size: 20px;
+    height: fit-content;
+    
+    padding-top: 15px;
+}
+.containernadpis{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+}
+.containerbody{
+    border: 1px solid #4665e7;
+    border-radius: 15px;
+    padding:  5px 10px 5px 10px;
+    margin-bottom : 10px;
+    height: fit-content;
+}
+.containerbody td{
+    vertical-align: top;
+    max-width: 350px;
+}
+.container:nth-child(2) .containerbody{
+    width: 800px;
+    height: 600px;
+}
+.containerbody input:not([type='radio']){
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 200px;
+    cursor: pointer;
+}
+.containerbody input:focus{
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none
+    
+}
+.pasma input[type="number"]{
+    width: 50px;
+    margin: 0px;
+}
+.pasma tr:first-child td{
+    text-align: center;
+    
+}
+.pasma input[type="checkbox"]{
+    width: 50px;
+    margin: 0px;
+    cursor: pointer;
+}
+.pasma tr:not(:last-child) td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+  
+}
+.pasma{
+    border-collapse: collapse;
+}
+
+.containerbody .SmapContainer{
+    width: 600px;
+}
+.printrectangle{
+    width: 70%;
+    height: 70%;
+    top:15%;
+    left: 15%;
+    border: 2px solid red;
+    z-index: 90 !important;
+    position: relative;
+    pointer-events: none;
+}
+.printmap{
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+
+}
+.Smap{
+    pointer-events: auto;
+}
+.loadingdiv{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.loadingcontent{
+    max-height: 98vh;
+    overflow: auto;
+    border-radius: 10px;
+    z-index: 100;
+    position: absolute;
+    width: 170px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    background: #181818;
+    padding: 20px;
+}
+.loadingmessage{
+    padding-top: 20px;
+    font-family: 'Asap', sans-serif;
+}
+
+.generatebutton{
+    background: #4665e7;
+    outline: none;
+    border: 1px solid #4665e7;
+    border-radius: 15px;
+padding: 5px 10px 5px 10px;
+margin-top: 20px;
+color: white;
+font-weight: bold;
+font-family: 'Asap', sans-serif;
+cursor: pointer;
+margin-right: 15px;
+}
+.mapybutton{
+
+    background: #29ac07;
+    outline: none;
+    border: 1px solid #29ac07;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    cursor: pointer;  
+}
+.mapsbutton{
+    background: #4A89F3;
+    outline: none;
+    border: 1px solid #4A89F3;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    cursor: pointer;  
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
+}
+.markersizediv{
+    padding: 0px;
+    display: flex;
+}
+.markersizediv button{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px;
+    outline: 0px;
+    border: 1px solid #e22b2b;
+    background: #e22b2b;
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 15px;
+    color: white;
+}
+.markersizediv button:hover{
+    border: 1px solid #c02121;
+    background: #c02121;
+/*     font-weight: bold; */
+}
+.markerbttn{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px;
+    outline: 0px;
+    border: 1px solid #4665e7;
+    background: #4665e7;
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
+}
+.markerbttn:hover{
+    background : #3953bd;
+    border:1px solid #3953bd
+}
+.markerbttn:first-of-type{
+    border-radius: 15px 0px 0px 15px;
+}
+.markerbttn:last-of-type{
+    border-radius: 0px 15px 15px 0px;
+}
+.markerbttn_active{
+    background:#2f449b;
+    border:1px solid #2f449b;
+    font-weight: bold;
+}
+.adresa{
+    margin-left: 0px !important;
+    text-decoration: none !important;
+    border: 1px solid white;
+    font-size: 18px !important;
+    width: auto !important;
+    cursor: text !important;
+}
+.mista{
+    margin-left: 0px !important;
+    text-decoration: none !important;
+    border: 1px solid white;
+    font-size: 18px !important;
+    cursor: text !important;
+}
+.khs_button{
+   
+    outline: none;
+    border: 1px solid #4A89F3 !important;
+
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 2px !important;
+    margin-right: 0px !important;
+    font-size: 12px !important;
+    color: white;
+    font-weight: normal;
+    font-family: 'Asap', sans-serif;
+    cursor: pointer;
+    width: auto !important;
+    
+}
+.khs_button:hover{
+    background: #4A89F3 !important;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.6);
+  
+}
+.khs_container{
+    max-height: 98vh;
+    overflow: auto;
+    border-radius: 15px;
+    z-index: 50;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+   
+}
+.khs_container .khs_header{
+    top: 0;
+    padding: 5px;
+    color: white;
+    background: #1a1a1a;
+}
+.khs_container .khs_header .bttn{
+    cursor: pointer;
+    float: right;
+    margin-right: 5px;
+}
+.khs_container .khs_header .clear{
+    clear: both;
+}
+.khs_container .khs_content{
+    color: white;
+    font-size: 12px;
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    background: #141414;
+    float:left;
+  
+}
+.khs_container .khs_content .khs_content_container{
+    border: 1px solid #4665e7;
+    margin: 10px;
+    width: 200;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.khs_container .khs_content .khs_content_container:hover{
+    border: 2px solid #4665e7;
+    margin: 9px;
+
+}
+.khs_container .khs_content .active{
+    background: rgba(70, 140, 231, 0.2);
+    margin: 9px;
+    border: 2px solid rgb(70, 140, 231);
+}
+.khs_container .khs_content .khs_content_container .khs_content_kraj{
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14;
+}
+.khs_container .khs_content .khs_content_container .khs_content_id{
+    text-align: left;
+    padding-left: 15px;
+}
+.khs_container .khs_content .khs_content_container .khs_content_obec{
+    text-align: left;
+    padding-left: 15px;
+}
+.khs_container .khs_content .khs_content_container .khs_content_ulice{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.khs_container .khs_content .savebttn{
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    cursor: pointer;
+    border: 1px solid #3ec600;
+    font-weight: bold;
+    margin-top: 10px;
+    display:block;
+    background: #141414;
+}
+.khs_container .khs_content .savebttn:hover{
+    background: #3ec600;
+}

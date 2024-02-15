@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    overflow-x: hidden;
+    
+    }
+
+    .btn1{
+        width: 20%;
+        border-left:5px solid #ff564a;
+        background:white;
+        margin: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius:10px;
+        text-decoration: none;
+        color: black;
+        font-weight: 100;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .btn1:hover{
+     
+        border-left:10px solid #ff564a;
+    
+    }
+    
+
+    
+    .sidenav {
+      height: 100%;
+      width: 15%;
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      background-color: #ff564a;
+      overflow-x: hidden;
+      padding-top: 20px;
+      float: left;
+    }
+    
+    .sidenav a {
+      padding: 6px 8px 15px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      display: block;
+      font-weight: lighter;
+    }
+    
+    .sidenav a:hover {
+      color: white;
+      font-weight: bold;
+    }
+    
+    .main{
+        display: block;
+        width: 100vw;
+        background: rgb(230, 230, 230);
+    }
+    .mainbox1{
+        min-height: 100%;
+        padding: 5px;
+        left: 15%;
+        position: absolute;
+        width:42%;
+        background: rgb(230, 230, 230);
+       
+    }
+    .mainbox2{
+        min-height: 100%;
+        padding: 5px;
+        right: 0;
+        position: absolute;
+        width:43%;
+        background: rgb(230, 230, 230);
+       
+    }
+    
+    .mainbox3{
+        min-height: 100%;
+        padding: 5px;
+        left: 15%;
+        position: absolute;
+        width:85%;
+        background: rgb(230, 230, 230);
+       
+    }
+    .mainbox0{
+        height: 100%;
+        padding-top: 60px;
+        left: 15%;
+        position: absolute;
+        width:85%;
+        background: rgb(230, 230, 230);
+       
+    }
+    .navcigace{
+    color: #ff564a;
+    text-decoration: none;
+    
+    }
+      
+    
+    .box{
+      width:92%;
+      min-height:96%;
+      bottom: 0;
+      
+      left:2%;
+      overflow: hidden; 
+    
+    }
+    
+    
+
+
+    
+    
+
+
+    .tab_log{
+        padding-right: 3px;
+        padding-left: 13px;
+        float:left;
+        margin-right: 15px;
+        padding: 0;
+          border-radius: 5px;
+         margin:10px;
+         border: none;
+          background-color: white;
+      }
+
+      .log_table{
+
+        padding: 10px;
+      }
+    
+    ::-webkit-scrollbar {
+      width: 6px;
+     
+      
+    }
+    
+    
+    ::-webkit-scrollbar-track {
+      background: white;
+      
+    }
+    
+    
+    ::-webkit-scrollbar-thumb {
+      background: #555;
+      border-radius: 4px;
+    }
+    
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: black;
+    }
+    
+    .tab2{
+      padding-right: 5px;
+      padding-left: 15px;
+      float:left;
+      margin-left: 20px;
+      padding: 10px;
+        border-radius: 5px;
+       margin: 10px;
+        background-color: white;
+    }
+    .section_nad{
+    
+    
+     padding: 5px;
+     font-weight: bold;
+     text-decoration: none;
+    
+    
+    }
+    .input{
+    border: none;
+    border-bottom: 1px solid #ff564a;
+    
+    }
+    
+    .input2{
+    border: none;
+    text-decoration: none;
+    color: block;
+    padding: 5px;
+    margin-top: 50px;
+    border-bottom: 1px solid green;
+    
+    }
+    .input2:hover{
+    border-bottom: 2px solid green;
+    
+    }
+    .button{
+    border:none;
+    border-bottom: 2px solid #ff564a;
+    padding: 5px;
+    margin-top: 10px;
+    cursor:pointer;
+    transition: 0.3s;
+    background: white;
+    }
+    .button:hover{
+      border-bottom: 2px solid #ff564a;
+      font-weight: bold;
+    }
+
+
+
+
+
+      .tab_nadpis{
+        font-weight: bold;
+        font-size: 17px;
+        padding: 8px;
+        border-radius: 5px 5px 0px 0px;
+        background: #ff6b61;
+    
+    }
+      .tab_list{
+        float:left;
+        margin-right: 15px;
+        border-radius: 5px;
+        margin:10px;
+        max-height: 95vh;
+        background-color: white;
+        overflow: auto;
+
+       
+      }
+
+      .tab_content{
+        padding-right: 3px;
+        padding-left: 13px;
+        max-height: 90%;
+        overflow: auto;
+
+      }
+      .tab_th{
+        padding-top: 10px;
+          font-weight: 600;
+      }
+
+    
+    .tab_th_r{
+      padding-top: 10px;
+        font-weight: 600;
+        text-align: center;
+       
+    }
+    .tab_td_r{
+        text-align: center;
+        padding-right: 20px;
+    }
+
+      .tab_td{
+        text-align: center;
+        padding-right: 20px;
+    
+      }
+
+      .hvezdicka{
+        font-size: 12px;
+        padding-top:10px;
+    
+      }

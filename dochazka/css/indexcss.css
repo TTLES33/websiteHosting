@@ -1,0 +1,317 @@
+
+.form{
+
+    background: white;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 21px;
+    text-decoration: none;
+
+
+
+}
+
+
+.form_button_add{
+  margin: 5px;
+
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  outline: none;
+  cursor: pointer;
+  border:none;
+  
+
+  background: #1a1a1a;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  transition: 0.1s;
+  float: left;
+  margin-left: 35px;
+
+}
+.form_button{
+  margin: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  min-width: 100px;
+
+  background: #00b91f;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  transition: 0.1s;
+
+}
+
+
+.form_button_add:hover, .form_button:hover{
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.form_input{
+ 
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 5px;
+   
+    border: 1px solid rgb(208,211,214);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.form_input:hover{
+  border-bottom: 2px solid #1a1a1a;
+}
+.form_input:active{
+  border:none;
+  border-bottom: 2px solid #1a1a1a;
+ 
+}
+.form_input_zak{
+  text-align: center;
+  width: 70px;
+ margin-left: 10px;
+  border: none;
+  border-bottom: 1px solid #1a1a1a;
+  transition: 0.3s;
+  cursor: text;
+}
+.form_input_zak:hover{
+  border-bottom: 2px solid #1a1a1a;
+}
+.form_input_zak:active{
+  border:none;  
+  border-bottom: 2px solid #1a1a1a;
+}
+
+
+.input_tr{
+  padding: 10px;
+}
+
+.form_success{
+  background: #80ffa4;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 25px;
+    font-size: 21px;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+.form_error{
+
+  background: #ff5757;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 25px;
+    font-size: 21px;
+    padding: 10px;
+    text-decoration: none;
+}
+.good{
+  padding: 5px;
+  background: #80ffa4;
+  border-radius: 10px;
+  color: black;
+}
+.bad{
+  padding: 5px;
+  background: #ff5757;
+  border-radius: 10px;
+  color: black;
+}
+
+.uz_select{
+    text-align: center;
+    width: 100%;
+  margin-left: 10px;
+  border: 1px solid rgb(208,211,214);
+  border-radius: 8px;
+  padding: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.uz_select:hover{
+    border-bottom: 2px solid #1a1a1a;
+
+}
+
+    .cas_good{
+        color: #80ffa4;
+        font-weight: bold;
+    }
+    .cas_bad{
+        color: #ff5757;
+    }
+    .index_form_table td{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .zakazky{
+
+      border-collapse: separate; 
+      border-spacing: 0; 
+      text-align: center;
+      border-spacing: 0px 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .zakazky input, .zakazky select, .zakazky button{
+        font-size: 12px;
+        
+     
+        border: 1px solid rgb(208,211,214);
+        border-radius: 8px;
+        transition: 0.1s;
+        padding: 5px;
+        margin: 0;
+        cursor: pointer;
+        margin-left: 30px;
+        margin-right: 30px;
+       
+
+    }
+    .zakazky input{
+        cursor: text;
+    }
+    .zakazky select{
+        background: white;
+    }
+    .zakazky input:hover, .zakazky select:hover, .zakazky button:hover{
+    
+        border-bottom: 2px solid #1a1a1a;
+    
+    }
+    .zakazky input:focus, .zakazky select:focus, .zakazky button:focus{
+
+        border: none;
+        outline: none;
+        border: 2px solid rgb(208,211,214);
+        border-bottom: 2px solid #1a1a1a;
+    }
+
+
+    .zakazka_content_add td{
+      background-color: rgba(48, 48, 48, 0.1);
+      padding: 5px;
+     margin-top: 50px;
+    }
+
+    .zakazka_content_add td:first-child{  
+      border-radius: 10px 0px 0px 10px;  
+      padding-left: 10px;
+     
+    }
+
+    .zakazka_content_add td:last-child{  
+      border-radius: 0px 10px 10px 0px;  
+      padding-right: 10px;
+    }
+
+    .dochazka-history{
+
+        background: white;
+        padding: 0px;
+        max-width:100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-top: 30px;
+        border-radius: 15px;
+      
+    }
+
+    .center-content{
+        display: inline-block;
+    }
+    .historytable{
+        width: 100% ;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        border-spacing: 0px;
+    }
+    .historytable tr td{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .historytable tr:not(:last-child) td {
+        border-bottom: 1px solid rgb(208,211,214);
+   
+    }
+    .historytable .titlerow{
+        padding-bottom: 1px;
+        font-weight: bold;
+    }
+    .editsvg{
+       background: #1a1a1a; 
+       cursor: pointer;
+       padding: 2px;
+       border-radius: 5px;
+    }
+     .loadingimg{
+        height: 40px;
+        padding: 10px;
+    }
+    .ActionStatus{
+      margin-top: 30px;
+    }
+    .good{
+      background: #92fbb0;
+    }
+    .bad{
+      background: rgb(255, 140, 140);
+    }
+
+    .dochazka_delete_buttn{
+      float:left;
+ 
+      margin-left: 30px;
+  
+      background: #ff4040;
+        
+      cursor: pointer;
+      font-weight: bold;
+      padding: 2px;
+      border-radius: 5px;
+    }
+    .insertbuttondiv{
+   
+      width: 100%;
+    }
+    @keyframes pauzanaobed {
+      from {font-size: 9px;;}
+      to {font-size: 13px;}
+    }
+    .pauzanaobed{
+      padding-left: 40px !important;
+      font-size: 13px;
+     
+      animation-duration: 0.3s;
+    }
+ 

@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    background: rgb(31, 31, 31);
+    font-family: 'Asap', sans-serif;
+}
+.all{
+    margin-top: 10px; 
+    height: calc(100vh - 10px);
+    width: 100vw;
+    
+}
+.bar{
+    width:60px;
+    height: 100%;
+    float: left;
+}
+.content{ 
+    
+    float: left;
+    width: calc(100vw - 60px);
+    height:100%;
+    border-radius: 5px;
+
+    
+ }
+ .time-model{
+     position: relative;
+     margin-top: 50px;
+     margin-left: 50px;
+     color: white;
+     font-weight: bold;
+     font-size: 100px;
+     
+ }
+
+
+.doubledot{
+ 
+    float: left; 
+    font-weight: lighter;
+     font-size: 50px;
+
+
+}
+
+ .hod, .min{
+     float: left;
+     padding-bottom: 0;
+    
+     margin-right: 15px;
+ }
+
+.sec{
+    float: left;
+     padding-bottom: 0;
+     font-size: 50px;
+     padding-top:10px;
+     font-weight: lighter;
+
+}
+.date{
+    text-align: left;
+    font-size: 15px;
+    
+    
+}
+
+
+.searching{
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 60px);
+    transform: translate(-50%, -50%);
+}
+.searchform{
+    float: top;
+    background :white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.searchform input{
+    border: none;
+    padding: 5px;
+}
+.searchform input:focus{
+    outline: none;
+
+}
+.searchform input[type="text"]{
+    border: none;
+    padding-left: 20px;
+    width: 300px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.searchform select{
+    border: none;
+}
+.searchsvg{
+cursor: pointer;
+padding: 0;
+width: 26px;
+height: 26px;
+}
+.downbar{
+
+    width: calc(100vw - 60px);
+    position: absolute;
+    bottom: 0;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start ;
+}
+
+/* 
+black
+
+.downbar .container{
+ 
+   border: 1px solid rgb(31, 31, 31);
+   padding : 15px;
+   border-radius:10px;
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   background:rgba(31, 31, 31, 0.2);
+ 
+} */
+
+.downbar .container{
+ 
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding : 15px;
+    border-radius:30px;
+    color: white;
+    font-size: 20px;
+
+    background:rgba(255, 255, 255, 0.1);
+  
+ }
+ .priceup{
+    display: inline;
+    color: rgb(98, 255, 98);
+    margin-left: 10px;
+ }
+
+ .pricedown{
+     color:red;
+     display: inline;
+     margin-left: 15px;
+ }
+
+ .crypto_name{
+     margin-right: 15px;
+     display: inline;
+     font-weight: bold;
+ }
+
+ .cryptoimg{
+     height: 18px;
+  
+     padding-right: 5px;
+ }
+
+ .temprature{
+
+    font-weight: bold;
+    display: inline;
+
+ }
+ .bazardiv{
+    cursor: pointer;
+    display: inline-block; 
+}
+
+ .bazardiv:hover{
+     font-weight: bold;
+
+ }
+
+ .closebazarbttn{
+    display: inline-block;
+    padding-left: 20px;
+    color: red;
+    border: 1px solid black;
+    padding: 0px 6px;
+    margin-left: 20px;
+    border-radius: 10px;
+ }
+ .closebazarbttn:hover{
+     cursor: pointer;
+     font-weight: bold
+ }
+ .engineselect{
+    cursor: pointer;
+    background: white;
+ }

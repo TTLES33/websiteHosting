@@ -1,0 +1,734 @@
+table.dataTable tfoot th, table.dataTable tfoot td{
+  padding: 0px 0 0px 0;
+  border: none;
+}
+.paginate_button{
+  color: black !important;
+}
+
+.tabulka{
+    max-height: 90vh;
+    max-width: 99%;
+    border:none;
+    width: auto;
+    overflow-y: scroll;
+    padding: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 10px;
+    background: white;
+overflow-y: scroll;
+padding: 5px;
+}
+
+
+
+.dochazka_table{
+    border-spacing:0px;
+    background: white;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.dochazka_table td:first-child{
+    position: sticky;
+}
+.dochazka_td{
+    border:none;
+    margin:0;
+    padding: 5px 2px 5px 2px !important;
+    border-spacing:0px;
+    text-align: center;
+}
+
+.dochazka_tr{
+    border: none;
+   
+
+    margin: 0;
+    border-radius: 10px;
+    border-spacing: 0px;
+
+  
+}
+.dochazka_tr th{
+    border: none;
+    margin: 0;
+    padding: 5px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1a1a1a;
+    border-spacing: 0px;
+}
+
+
+.tabulka tfoot,
+.tabulka tfoot th,
+.tabulka tfoot td {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+
+  font-weight: bold;
+
+
+ 
+  z-index:4;
+  text-align: center;
+}
+
+.tabulka tfoot{
+    margin-top: 10px;
+}
+
+.tisk{
+    position: absolute;
+    top:10px;
+    right:10px;
+    padding: 10px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+
+.uzavreno{
+    padding: 5px;
+    margin: 0;
+background: #ff6459;
+}
+.otevreno{
+    margin: 0;
+    padding: 5px;
+    background: #51fa48;
+    font-weight: bold;
+}
+.form_success{
+  background: #80ffa4;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 25px;
+    font-size: 21px;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+.form_error{
+
+  background: #ff5757;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 25px;
+    font-size: 21px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dochazka_table input{
+  font-size: 13px;
+  border: 1px solid rgb(208,211,214);
+    border-radius: 8px;
+ transition: 0.1s;
+ margin-bottom: 2px;
+ margin-top: 2px;
+  padding: 3px;
+ 
+}
+.dochazka_table input:hover{
+  padding-bottom: 1px;
+  border-bottom: 2px solid #1a1a1a;
+}
+.dochazka_table input:focus{
+  padding-bottom: 1px;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(208,211,214);
+  border-bottom: 2px solid #1a1a1a;
+}
+.dochazka_table select{
+  background: white;
+    border: 1px solid rgb(208,211,214);
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 3px;
+ transition: 0.1s;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  font-size: 14px;
+}
+.dochazka_table select:hover{
+  padding-bottom: 1px;
+  border-bottom: 2px solid #1a1a1a;
+}
+.dochazka_table select:focus{
+  padding-bottom: 1px;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(208,211,214);
+    border-bottom: 2px solid #1a1a1a;
+  }
+.dochazka_table input[type=submit]{
+  border: none;
+
+  cursor: pointer;
+ transition: 0.1s;
+
+ float: left;
+
+}
+.dochazka_table input[type=submit]:hover{
+
+  font-weight: bold;
+}
+.dochazka_table input[type=number]{
+  width: 100px;
+  text-align: right;
+}
+.dochazka_table .clickable{
+  cursor: pointer;
+}
+.dochazka_table .uzivatele{
+  width: 100px;
+}
+.table_add{
+ 
+ 
+   
+   
+    margin: 0px;
+    padding: 0px !important;
+    margin-top: 15px;
+    text-align: left;
+    
+
+}
+.content{
+    color: rgb(7, 192, 7);
+    font-size: 12px;
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+    width: 100%;
+    padding:  8px 0px 0px 8px;
+    
+}
+
+.input_name{
+    font-size: 14px;
+    width: 400px;
+}
+.dochazka_edit_buttn{
+float:left;
+
+color: white;
+background: #00b91f;
+  border: none;
+  padding: 3px;
+cursor: pointer;
+font-weight: bold;
+
+border-radius: 5px;
+
+}
+
+.dochazka_tisk_buttn{
+    float:left;
+
+    color: white;
+    background: #1a1a1a;
+      border: none;
+      padding: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    
+    border-radius: 5px;
+
+
+    
+}
+
+
+.dochazka_delete_buttn{
+  float:left;
+  
+  
+  background: #ff4040;
+    
+  cursor: pointer;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 5px;
+  
+  }
+.kooperace{
+   
+  max-height: 98vh;
+overflow: auto;
+  border-radius: 10px;
+  z-index: 50;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  background:white;
+
+}
+.kooperace .header{
+    top: 0;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    color:white;
+    background:#1a1a1a;
+    
+}
+.kooperace .header .clear{
+    clear:both;
+}
+.kooperace .header .bttn{
+cursor: pointer;
+
+float: right;
+
+}
+.kooperace .header .bttn:hover{
+    font-weight: bold;
+    }
+
+.kooperace .header .text{
+   
+    
+ 
+   padding-right: 40px;
+   float: left;
+}
+.kooperace .content{
+
+    color: black;
+    font-size: 12px;
+    display: inline;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    padding:  0px;;
+    
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+
+
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+.odpracovano_table{
+    margin:0;
+    padding: 0;
+    border-spacing: 0px;
+    width: 100%;
+}
+.odpracovano_table td{
+  padding: 5px;
+  
+}
+.odpracovano_table .popisky{
+
+    text-align: center;
+    padding: 2px;
+    font-size: 14px;
+}
+.odpracovano_table .popisky td {
+
+    border: none;
+    border-bottom: 2px solid #1a1a1a;
+    top: 0;
+  padding: 5px;
+  }
+
+
+  
+.odpracovano_table select, .odpracovano_table input{
+    border:none;
+    border: 1px solid rgb(208,211,214);
+    border-radius: 8px;
+    padding: 3px;
+    cursor: pointer;  
+    margin-bottom: 7px;
+
+    
+}
+.odpracovano_table tr:last-child select, .odpracovano_table tr:last-child input{
+ 
+  margin-bottom: 0px;
+
+  
+}
+.odpracovano_table input[type="number"]{
+  width: 150px;
+}
+.odpracovano_table input[type="text"]{
+  width: 150px;
+}
+
+
+.odpracovano_table .odpracovano_block_other td{
+    border: none;
+    border-top: 2px solid #1a1a1a;
+    margin-top: 2px;
+
+}
+.odpracovano_table .readonly{
+
+    cursor: default;
+}
+
+.odpracovano_save_bttn{
+  margin: 5px;
+
+
+  cursor: pointer;
+  margin-top: 15px;
+  border:none;
+  outline: none;
+  width: 150px;
+  background: #00b91f;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  transition: 0.1s;
+}
+.odpracovano_save_bttn:hover{
+  border-radius: 3px;
+
+}
+.odpracovano_button_add{
+
+  margin-left: 5px;
+  height:24px;
+  width: 24px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  outline: none;
+  cursor: pointer;
+  border:none;
+  
+
+  background: #1a1a1a;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  transition: 0.1s;
+  float: left;
+
+}
+
+.kooperace_table{
+  margin:0;
+  padding: 0;
+  border-spacing: 0px;
+  width: 100%;
+}
+.kooperace_table tr{
+  vertical-align:top;
+}
+.kooperace_table td{
+padding: 5px;
+
+}
+
+
+
+.kooperace_table input{
+  border:none;
+  border: 1px solid rgb(208,211,214);
+  border-radius: 8px;
+  padding: 3px;
+  cursor: pointer;  
+  margin-bottom: 7px;
+
+  
+}
+
+.kooperace_table input[type=number]{
+  width: 120px;
+  cursor:text;
+}
+.kooperace_table input[type=text]{
+  width: 220px;
+}
+.kooperace_table tr:last-child select, .kooperace_table tr:last-child input{
+
+margin-bottom: 0px;
+
+
+}
+
+
+
+
+.uzivatele_edit_add_button{
+  margin: 5px;
+  margin-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+  cursor: pointer;
+
+
+  background: #1a1a1a;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  transition: 0.1s;
+
+}
+
+.uzivatele_edit_add_button:hover, .uzivatele_edit_save_button:hover{
+  border-radius: 3px;
+
+}
+
+.uzivatele_edit_save_button{
+  margin: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+  cursor: pointer;
+
+
+  background: #00b91f;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  transition: 0.1s;
+}
+
+.kooperacetable{
+  margin:0;
+  padding: 0;
+  border-spacing: 0px;
+
+}
+.kooperacetable td{
+  padding: 3px;
+}
+.kooperacetable input{
+  border:none;
+  border: 1px solid rgb(208,211,214);
+  border-radius: 8px;
+  padding: 3px;
+  cursor: pointer;  
+  margin-bottom: 7px;
+}
+
+.loadingimg{
+
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+ 
+
+}
+.dochazka_insert_bttn{
+ 
+color: white;
+background: #00b91f;
+border: none;
+padding: 3px;
+cursor: pointer;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.printcontent{
+    font-size: 12px;
+}
+.print_table0{
+
+
+padding-top:10px;
+}
+.print_table0 td{
+ padding-left: 10px;
+
+}
+.print_table0 tr:first-child td:last-child{
+  font-weight: bold;
+
+}
+
+.print_table1{
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+
+
+}
+.print_table1 tr:first-child{
+
+  font-weight: bold;
+ 
+}
+.print_table1 tr:first-child td{
+border-bottom: 1px solid #ddd;
+}
+
+.print_containerdiv{
+  
+  margin-top: 50px;
+ 
+  float:left;
+}
+
+.print_table2{
+  margin-left:50px;
+  width:100%;
+  text-align: center;
+}
+.print_table2 tr:first-child{
+font-weight: bold;
+}
+.print_table2 tr:first-child td{
+  border-bottom: 1px solid #ddd;
+  }
+  .print_table2 tr td:first-child{
+    text-align: left;
+  }
+
+  .print_tablenadpis{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .tr_uzavreno select, .tr_uzavreno input{
+    color: rgb(177, 177, 177);
+  }
+  .datenotdefined{
+    color: rgb(87, 87, 87);
+
+  }
+  .savekontent{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding:  10px 10px 0px 10px;
+  }
+  .savekontent button{
+    float: center;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+    
+  } 
+
+  .prompt_reset_bttn{  
+    background: #979797;
+  }
+  .prompt_close_bttn{
+    background: #ff4040;
+  }
+  .prompt_save_bttn{
+    background: #00b91f;
+  }
+
+.savemodal{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  background:white;
+
+}
+
+.freered{
+color:#ff6459;
+}
+.freenone{
+color: black;
+}
+
+.tiskdiv{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.kooperace_zaplaceno_div{
+  border: 1px solid rgb(208,211,214);
+  margin-bottom: 7px;
+  border-radius: 8px;
+  clear:both
+}
+.kooperace_zaplaceno_div input{
+  border: none !important;
+  margin-bottom: 0px !important;
+}
+.kooperace_zaplaceno_div input:last-child{
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #ff5858;
+  
+}
+.kooperace_zaplaceno_div input:last-child:hover{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 14px;
+}
+.kooperace_zaplaceno div{
+ 
+  float: left;
+}
+.kooperace_zaplaceno_add{ 
+  margin: 4px;
+  padding-top: 0px !important;
+padding-bottom: 1px !important;
+padding-left: 4px !important;
+padding-right: 4px !important;
+outline: none;
+cursor: pointer;
+border: none !important;
+background: #1a1a1a;
+border-radius: 4px !important;
+font-weight: bold;
+color: white;
+transition: 0.1s;
+float: left;
+margin-left: 15px;
+}
+
+.numberinput{
+  cursor: text;
+  width: 100px !important;
+}
+
+input{
+  font-family: 'Asap', sans-serif;
+}

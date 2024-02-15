@@ -1,0 +1,35 @@
+DirectoryIndex index.php index.html index.htm index2.html
+
+ErrorDocument 400 https://ttles.eu/weberrors/error.php?errcode=400
+ErrorDocument 401 https://ttles.eu/weberrors/error.php?errcode=401
+ErrorDocument 402 https://ttles.eu/weberrors/error.php?errcode=402
+ErrorDocument 403 https://ttles.eu/weberrors/error.php?errcode=403
+ErrorDocument 404 https://ttles.eu/weberrors/error.php?errcode=404
+ErrorDocument 405 https://ttles.eu/weberrors/error.php?errcode=405
+ErrorDocument 406 https://ttles.eu/weberrors/error.php?errcode=406
+ErrorDocument 407 https://ttles.eu/weberrors/error.php?errcode=407
+ErrorDocument 408 https://ttles.eu/weberrors/error.php?errcode=408
+ErrorDocument 409 https://ttles.eu/weberrors/error.php?errcode=409
+ErrorDocument 410 https://ttles.eu/weberrors/error.php?errcode=410
+ErrorDocument 411 https://ttles.eu/weberrors/error.php?errcode=411
+ErrorDocument 412 https://ttles.eu/weberrors/error.php?errcode=412
+ErrorDocument 413 https://ttles.eu/weberrors/error.php?errcode=413
+ErrorDocument 414 https://ttles.eu/weberrors/error.php?errcode=414
+ErrorDocument 415 https://ttles.eu/weberrors/error.php?errcode=415
+ErrorDocument 416 https://ttles.eu/weberrors/error.php?errcode=416
+ErrorDocument 417 https://ttles.eu/weberrors/error.php?errcode=417
+ErrorDocument 421 https://ttles.eu/weberrors/error.php?errcode=421
+ErrorDocument 422 https://ttles.eu/weberrors/error.php?errcode=422
+ErrorDocument 423 https://ttles.eu/weberrors/error.php?errcode=423
+ErrorDocument 424 https://ttles.eu/weberrors/error.php?errcode=424
+ErrorDocument 426 https://ttles.eu/weberrors/error.php?errcode=426
+ErrorDocument 428 https://ttles.eu/weberrors/error.php?errcode=428
+ErrorDocument 429 https://ttles.eu/weberrors/error.php?errcode=429
+ErrorDocument 431 https://ttles.eu/weberrors/error.php?errcode=431
+ErrorDocument 451 https://ttles.eu/weberrors/error.php?errcode=451
+ErrorDocument 500 https://ttles.eu/weberrors/error.php?errcode=500
+ErrorDocument 501 https://ttles.eu/weberrors/error.php?errcode=501
+ErrorDocument 502 https://ttles.eu/weberrors/error.php?errcode=502
+ErrorDocument 503 https://ttles.eu/weberrors/error.php?errcode=503
+ErrorDocument 504 https://ttles.eu/weberrors/error.php?errcode=504
+

@@ -1,0 +1,18 @@
+{
+  "monte":
+          [
+            {"name": "La Bollène-Vésubie - Peïra Cava", "length": 18.51, "checked":  true},
+            {"name": "Peïra Cava - La Bollène-Vésubie", "length": 18.18, "checked":  true},
+            {"name": "La Bollène-Vésubie - Col de Turini", "length": 9.21, "checked":  true},
+            {"name": "Pra d'Alart", "length": 8.88, "checked":  true},
+            {"name": " La Maïris", "length": 9.30, "checked":  true},
+            {"name": "Baisse de Patronel", "length": 9.30, "checked":  true},
+            {"name": "Saint-Léger-les-Mélèzes - La Bâtie-Neuve", "length": 16.79, "checked":  true},
+            {"name": "La Bâtie-Neuve - Saint-Léger-les-Mélèzes", "length": 16.64, "checked":  true},
+            {"name": "Moissière", "length": 8.18, "checked":  true},
+            {"name": "Ancelle", "length": 8.03, "checked":  true},
+            {"name": "Ravin de Coste Belle", "length": 8.60, "checked":  true},
+            {"name": "Les Borels", "length": 8.60, "checked":  true}
+          ]
+}
+

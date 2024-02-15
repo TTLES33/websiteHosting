@@ -1,0 +1,56 @@
+.body{
+    background: #252c4a;
+    font-family: 'Asap', sans-serif;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.box .otazka{
+    color: white;
+    transition: 0.3s;
+    
+    font-weight: bold;
+    font-size:  48px;
+   
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+.box .actions .true,
+.box .actions .false{
+
+    background: rgb(37,44,74);
+    background: linear-gradient(93deg, rgba(37,44,74,1) 0%, rgba(33,57,107,1) 100%);
+    border: 1px solid #21496b;
+    padding: 10px 50px 10px 50px;
+    font-size: 21px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.box .actions .true:hover,
+.box .actions .false:hover{
+
+   
+    border: 1px solid #21496b;
+    padding: 10px 50px 10px 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.points{
+position: absolute;
+top: 15;
+right: 15;
+color: white;
+transition: 0.3s;
+font-size: 40px;}

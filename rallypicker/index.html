@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <title>EA SPORTS WRC Stage and Car picker</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    </head>
+    <body>
+        <div class="header">
+            <div class="title">EA SPORTS WRC Stage and Car picker</div>
+            Random stage and car picker for EA SPORTS WRC game. 
+        </div>
+        <div class="maindiv">
+           
+            <div class="stageselector">
+                <div class="rallytitle">Rallies</div>
+                <div class="rally">
+                    <div class="banner">
+                       <div onclick="checkboxcheck(0);" class="locationcheckbox">
+                         <input checked onclick="checkboxcheck(0);" name="locationselect" class="locationselect" type="checkbox">
+                       </div>
+                       <div onclick="checkboxcheck(0);" id="locationtitle" class="locationtitle locationtitle_checked">
+                            Monte-Carlo
+                       </div> 
+                       <div onclick="locationexpand(0)" class="locationarrow">
+                           <span class="material-symbols-outlined expand_more">expand_more</span>
+                       </div>
+                    </div>
+                    <div style="display: none"  class="stagetablecontainer">
+                    <table class="stagetable">
+                        <thead>
+                        <tr>
+                            <td><input checked type="checkbox"></td>
+                            <td>Stage name</td>
+                            <td>Stage length</td>
+                        </tr>
+                        </thead>
+                      <tbody>
+                      </tbody>
+
+                    </table>
+
+                    </div>
+                    
+                </div>
+                <div class="rally">Sweden</div>
+                <div class="rally">CER</div>
+                <div class="rally">Chile</div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </body>
+</html>

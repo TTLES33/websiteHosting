@@ -1,0 +1,124 @@
+ <?php  
+/*
+
+  $cas_od_post = $_POST['cas_od']; 
+  $cas_od_string = strtotime($cas_od_post);
+  $cas_do_post = $_POST['cas_do']; 
+  $cas_do_string = strtotime($cas_do_post);
+  $diff_sec = $cas_do_string - $cas_od_string;
+  $diff = $diff_sec / 60 ;
+
+
+
+
+
+    $servername = "database-ttles.cr2b8qefitxx.us-east-2.rds.amazonaws.com";
+    $username = "dochazka-pristup";
+    $password = "dochazkapristupoveheslo";
+    $dbname = "dochazka";
+
+
+
+$input_dat = $_POST['datum'];
+$input_cas_od = $_POST['cas_od'];
+$input_cas_do = $_POST['cas_do'];
+$uzivatel = $_POST['uzivatele_vyber'];
+
+if($_COOKIE["error_zak"] == "true" || empty($input_cas_do) == "true" || empty($input_cas_od) == "true"){
+
+  echo "<div class=\"form_error\" >Některé informace nejsou doplněné</div>";
+
+}else{ 
+
+   $conn = new mysqli($servername, $username, $password, $dbname);
+
+   if ($conn->connect_error) {
+
+    die("Connection failed: " . $conn->connect_error);
+
+  }
+
+	 $sql = "INSERT INTO cas (datum, cas_od, cas_do, jmeno_id, cas)
+
+	 VALUES ('$input_dat', '$input_cas_od', '$input_cas_do', '$uzivatel', '$diff')";
+
+
+
+if ($conn->query($sql) === TRUE) {
+
+    echo " <div class=\"form_success\"> Úspěšně Vloženo: <br> Od: ".$input_cas_od."<br> Do: ".$input_cas_do."<br> Čas: ".$diff." min. <br> Datum: ".$input_dat."<br>";
+
+  } else {
+
+    echo "Error: " . $sql . "<br>" . $conn->error;
+
+  }
+
+  
+
+  $conn->close(); 
+  $zak_upload = $zak_por;
+
+while($zak_upload > "0"){ 
+
+  $post_input = "zak_".$zak_upload."";
+   $zak_post = $_POST[$post_input]; 
+   $zak_str = strtotime($zak_post);
+
+    if($zak_str > "1615244400"){
+
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+
+$sql = "INSERT INTO sessions (zakazka, cas, uzivatel, datum)
+VALUES ('$zak_upload', '$zak_post', '$uzivatel', '$input_dat')";
+
+if ($conn->query($sql) === TRUE) {
+  echo " Zakázka ".$zak_upload.": ".$zak_post."<br>";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close(); 
+
+
+
+   }
+   $zak_upload = $zak_upload - "1";
+  }
+ echo "<br> Hodnota ".$post_input.":";
+ echo $test;
+echo "<br> ".$zak_end."";  
+
+
+}
+*/
+?>
+
+
+
+<?php
+$zak_poc = $_POST['zak_poc'];
+//$js_array_zak_values = $_POST['js_array_zak_values'];
+$js_array_zak_values = json_decode($_POST['js_array_zak_values']);
+//$js_array_zak_ids = $_POST['js_array_zak_ids'];
+$js_array_zak_ids = json_decode($_POST['js_array_zak_ids']);
+$zak_poc = $zak_poc - 1;
+
+while($zak_poc => 0){
+
+  
+
+  $zak_poc = $zak_poc - 1;
+}
+echo $zak_poc;
+echo "<br>";
+print_r ($js_array_zak_values);
+echo "<br>";
+print_r ($js_array_zak_ids);
+echo "<br>";
+echo "!aaaaaaaaaaaaaaa";
+?>

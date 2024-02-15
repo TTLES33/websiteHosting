@@ -1,0 +1,151 @@
+
+.tabulka{
+
+    max-height: 90vh;
+    border:none;
+    width: auto;
+    overflow-y: scroll;
+    padding: none;
+    display: inline-block;
+}
+
+
+
+
+.dochazka_table{
+    border-spacing: 0px;
+    background: white;
+    overflow-y: scroll;
+    padding: 5px;
+    border-radius: 20px;
+}
+   
+.dochazka_table td{
+    padding: 3px 15px 3px 15px;
+    text-align: center;
+} 
+.dochazka_table tr td:nth-child(2){
+    text-align: left;
+    padding-left: 0px !important;
+}
+.dochazka_table tr:nth-child(2) td{
+    padding: 15px 15px 2px 15px;
+} 
+
+.dochazka_tr:first-child th{
+    border: none;
+    margin: 0;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1a1a1a;
+    border-spacing: 0px;
+}
+
+ 
+
+.dochazka_tr td{
+    border: none;
+    margin: 0;
+    padding: 15px 2px 15px 2px;
+    border-spacing: 0px;
+    text-align: center;
+}
+.form_input{
+    display: inline-block;
+    margin: 15px;
+    border-radius: 15px;
+    background: white;
+    padding:10px;
+}
+.form_input input{
+    border: none;
+    height: 35px;
+    border-bottom: 1px solid #1a1a1a;
+    transition: 0.3s;
+   
+}
+.form_input select{
+    border: none;
+    height: 35px;
+    border-bottom: 1px solid #1a1a1a;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.form_input input:hover{
+
+    border-bottom: 2px solid #1a1a1a;
+}
+.form_input select:hover{
+
+    border-bottom: 2px solid #1a1a1a;
+}
+.form_input  .submit{
+    
+    padding: 10px;
+    border: none;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+   
+}
+.form_input  .submit:hover{
+
+border: none;
+}
+
+.tisk{
+    position: absolute;
+    top:20px;
+    right:20px;
+    padding: 10px;
+    border: none;
+    background: #1a1a1a;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.tisk:hover{
+    border-radius: 10px; 
+}
+
+.tabulka tfoot,
+.tabulka tfoot th,
+.tabulka tfoot td {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  z-index:4;
+  text-align: center;
+  border-top: 2px solid #1a1a1a;
+}
+
+.loadingimg{
+    height: 30px;
+
+}
+@media screen {
+    .noScreen{
+       display:none;
+    }
+}
+
+.updatebttn{
+    background: #1a1a1a;
+    height: 21px;
+    width: 21px;
+    padding: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.updatebttn:hover{
+    border-radius: 10px;
+}

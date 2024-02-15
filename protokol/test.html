@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="https://kingdomcomemap.github.io/css/leaflet.css">
+        <link type="text/css" rel="stylesheet" href="https://kingdomcomemap.github.io/css/leaflet-sidebar.css">
+        <link type="text/css" rel="stylesheet" href="https://kingdomcomemap.github.io/css/Leaflet.Coordinates-0.1.3.css">
+        <link type="text/css" rel="stylesheet" href="https://kingdomcomemap.github.io/css/style.css">
+
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+
+<script>
+    function PrintDiv()
+{
+var div = document.getElementById("test");
+    html2canvas((document.body), {
+        onrendered: function(canvas) {
+            var myImage = canvas.toDataURL();
+            downloadURI(myImage, "MaSimulation.png");
+      }
+    });
+}
+
+function downloadURI(uri, name) {
+    console.log("test");
+    var link = document.createElement("a");
+    console.log(link);
+    link.download = name;
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();   
+    //after creating link you should delete dynamic link
+    //clearDynamicLink(link); 
+}
+</script>
+    </head>
+    <body data-new-gr-c-s-check-loaded="8.902.0" data-gr-ext-installed="" class="">
+      <div id="map" class="sidebar-map leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="outline: currentcolor none medium;">
+        <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-674px, -673px, 0px);">
+            <div class="leaflet-pane leaflet-tile-pane">
+                <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
+                    <div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 4; transform: translate3d(796px, 686px, 0px) scale(0.554785);"></div>
+                    <div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 5; transform: translate3d(492px, 338px, 0px) scale(1.10957);">
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1414px, 781px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1670px, 781px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1414px, 1037px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1670px, 1037px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1414px, 525px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1670px, 525px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1158px, 781px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1158px, 1037px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1414px, 1293px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1670px, 1293px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1158px, 525px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1158px, 1293px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(902px, 781px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(902px, 1037px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(902px, 525px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                        <canvas class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(902px, 1293px, 0px); opacity: 1;" width="256" height="256"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="leaflet-pane leaflet-shadow-pane"></div>
+            <div class="leaflet-pane leaflet-overlay-pane"></div>
+            <div class="leaflet-pane leaflet-marker-pane">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1706px, 1057px, 0px); z-index: 1057;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1919px, 1010px, 0px); z-index: 1010;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1853px, 1178px, 0px); z-index: 1178;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1929px, 1299px, 0px); z-index: 1299;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(2125px, 1259px, 0px); z-index: 1259;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(2390px, 1114px, 0px); z-index: 1114;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1814px, 1474px, 0px); z-index: 1474;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1733px, 1550px, 0px); z-index: 1550;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(2035px, 1662px, 0px); z-index: 1662;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1746px, 1770px, 0px); z-index: 1770;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(1762px, 1833px, 0px); z-index: 1833;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(2245px, 1949px, 0px); z-index: 1949;" alt="" tabindex="0">
+                <img src="./assets/images/alpha_marker.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" style="margin-left: -18px; margin-top: -18px; width: 1px; height: 1px; opacity: 0; transform: translate3d(2468px, 1702px, 0px); z-index: 1702;" alt="" tabindex="0">
+            </div>
+            <div class="leaflet-pane leaflet-tooltip-pane">
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1651px, 1010px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="SKALITZ" style="font-size: 16px;">SKALICE</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1836px, 963px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="PRIBYSLAVITZ" style="font-size: 16px;">PŘIBYSLAVICE</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1803px, 1131px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="ROVNA" style="font-size: 16px;">ROVNÁ</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1861px, 1252px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="MERHOJED" style="font-size: 16px;">MERHOJEDY</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(2057px, 1212px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="TALMBERG" style="font-size: 16px;">TALMBERK</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(2336px, 1067px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="UZHITZ" style="font-size: 16px;">ÚŽICE</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1747px, 1427px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="SAMOPESH" style="font-size: 16px;">SAMOPŠE</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1659px, 1503px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="MONASTERY" style="font-size: 16px;">KLÁŠTER</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1962px, 1615px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="LEDETCHKO" style="font-size: 16px;">LEDEČKO</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1701px, 1723px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="SASAU" style="font-size: 16px;">SÁZAVA</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(1710px, 1786px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="VRANIK" style="font-size: 16px;">VRANÍK</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(2192px, 1902px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="RATTAY" style="font-size: 16px;">RATAJE</span>
+                </div>
+                <div class="leaflet-tooltip text-label leaflet-zoom-animated leaflet-tooltip-top" style="opacity: 0.9; transform: translate3d(2413px, 1655px, 0px); visibility: visible; font-size: 24px;">
+                    <span data-i18n="NEUHOF" style="font-size: 16px;">NEUHOF</span>
+                </div>
+            </div>
+            <div class="leaflet-pane leaflet-popup-pane"></div>
+            <div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(599px, 818.5px, 0px) scale(3.03143);"></div>
+        </div>
+        <div class="leaflet-control-container">
+            <div class="leaflet-top leaflet-left"></div>
+            <div class="leaflet-top leaflet-right">
+                <div class="leaflet-bar leaflet-control">
+                    <a class="leaflet-control-zoom-fullscreen fullscreen-icon" href="#" title="Full Screen" style=""></a>
+                </div>
+                <div class="leaflet-control-zoom leaflet-bar leaflet-control">
+                    <a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a>
+                    <a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a>
+                </div>
+            </div>
+            <div class="leaflet-bottom leaflet-left"></div>
+            <div class="leaflet-bottom leaflet-right">
+                <div class="leaflet-control-coordinates leaflet-control">
+                    <div class="uiElement label">
+                        <span class="labelFirst">X: -1691 Y: 782</span>
+                    </div>
+                    <div class="uiElement input uiHidden">
+                        <span class="">X: </span>
+                        <input class="inputX" type="text">
+                        <span class="">Y: </span>
+                        <input class="inputY" type="text">
+                    </div>
+                </div>
+                <div class="leaflet-control-attribution leaflet-control">
+                    <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+            <input type="button" onclick="PrintDiv()" value="print">
+    </body>
+</html>
